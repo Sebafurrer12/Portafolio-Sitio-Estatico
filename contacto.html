@@ -38,7 +38,25 @@ nav a:hover {
     background-color: #0056b3; /* Un azul más oscuro */
     transform: translateY(-2px); /* El botón "salta" un poquito */
 }
+/* Esto aplicará el mismo estilo a los botones de la tarjeta de contacto */
+.boton-contacto { 
+    background-color: #28a745; /* Un verde para diferenciar contacto, o usa #007bff para azul */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px; /* Margen arriba y abajo para que no estén pegados */
+    display: inline-block;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
+.boton-contacto:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
 /* Tu tarjeta blanca */
 .card { 
     background: white; 
